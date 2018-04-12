@@ -1,4 +1,5 @@
 # sql_completion
+Website with experimentation material: https://marielgy.github.io/sql_experimentation/
 
 # Test the interface :
   run ```python demo.py``` for interface with completion
