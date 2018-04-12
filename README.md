@@ -1,11 +1,11 @@
 # sql_completion
 Website with experimentation material: https://marielgy.github.io/sql_experimentation/
 
-# Test the interface :
+## Test the interface :
   run ```python demo.py``` for interface with completion
   run ```python demo_symple.py``` for only sql
   
-# Notes on completion :
+## Notes on completion :
    * You can only complete a valid SQL query
    * You can select the number of completion to obtain
    * Simple query to test : 
@@ -13,7 +13,7 @@ Website with experimentation material: https://marielgy.github.io/sql_experiment
    Select * from Packages
    ```
    
-# Database was created as follows:
+## Database was created as follows:
   ```sql
   CREATE TABLE Cities(
                 city_ID DECIMAL,
@@ -34,7 +34,7 @@ Website with experimentation material: https://marielgy.github.io/sql_experiment
         )
   ```
   
-  # Re-using completion:
+  ## Re-using completion:
   To use the completion in a new program, you need the 
   ```python 
   completeQuery(datasetQuery, database, maxcompletions)
